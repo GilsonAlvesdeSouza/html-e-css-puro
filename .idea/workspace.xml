@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d74c18-d278-4ab9-a9ea-e0168937450b" name="Default Changelist" comment="primeiro commit">
+      <change afterPath="$PROJECT_DIR$/servindo-tags-para-formularios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607606699984</updated>
-      <workItem from="1607606701418" duration="8356000" />
+      <workItem from="1607606701418" duration="15749000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro commit">
       <created>1607618237173</created>
@@ -60,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607618237173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="primeiro commit">
+      <created>1607618952719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607618952719</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

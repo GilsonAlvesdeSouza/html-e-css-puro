@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<main>
+    <form action="">
+        <fieldset>
+            <legend>Meu Formulário</legend>
+            
+            <p>
+                Insira seu nome: <input type="text">
+            </p>
+            
+            <p>
+                Insira seu email: <input type="email">
+            </p>
+            
+            <p>
+                Insira uma senha: <input type="password">
+            </p>
+            
+            <p>
+                Informe o sexo:<br>
+                <input type="radio" value="M" name="sexo"> Masculino<br>
+                <input type="radio" value="F" name="sexo"> Feminino
+            </p>
+            
+            <p>
+                Informe suas tecnologias preferidas<br>
+                <input type="checkbox"> HTML <br>
+                <input type="checkbox"> JS <br>
+                <input type="checkbox"> PHP <br>
+                <input type="checkbox"> Python <br>
+                <input type="checkbox"> Java <br>
+                <input type="checkbox"> C# <br>
+                <input type="checkbox"> Angular <br>
+            </p>
+            
+            <p>
+                Informe um arquivo: <input type="file">
+            </p>
+            
+            <p>
+                Informe uma URL: <input type="url">
+            </p>
+            
+            <p>
+                Selecione um curso: <br>
+                <select name="Curso" id="select_curso">
+                    <optgroup label="Front End">
+                        <option value="1">HTML</option>
+                        <option value="2">CSS</option>
+                        <option value="3">JS</option>
+                    </optgroup>
+                    
+                    <optgroup label="Back End">
+                        <option value="4">PHP</option>
+                        <option value="5">Java</option>
+                    </optgroup>
+                </select>
+            </p>
+            
+            <p>
+                Range: <input type="range"  id="range" step="0.01" >
+                
+                <span id="span" style="font-size: 100px; color: blue; padding-left: 30px">0 %</span>
+            </p>
+            
+            <p>
+                Color: <input type="color">
+            </p>
+           
+            <p>
+                Date: <input type="date">
+            </p>
+           
+            <p>
+                Time: <input type="time">
+            </p>
+            
+            <p>
+                <button type="submit">Validar</button>
+            </p>
+        </fieldset>
+    </form>
+</main>
+</body>
+<script>
+   var range = document.getElementById('range');
+   var value = document.getElementById('span');
+   range.value = 0
+   range.addEventListener('input', function() {
+       value.innerText = (this.value+' % Loading...');
+   });
+</script>
+</html>
